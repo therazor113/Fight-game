@@ -9,7 +9,13 @@ export const enemy = new Sprite({
     x: 0,
     y: 0
   },
-  color: 'red'
+  color: 'red',
+  width: 50,
+  height: 100,
+  offset: {
+    x: -50,
+    y: 10
+  }
 })
 
 export const enemyKeys = {
@@ -25,4 +31,7 @@ export const enemyKeys = {
   ArrowRight: {
     pressed: false
   },
+  Control: {
+    pressed: false
+  }
 }

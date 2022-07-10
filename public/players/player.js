@@ -9,7 +9,13 @@ export const player = new Sprite({
     x: 0,
     y: 0
   },
-  color: 'white'
+  color: 'white',
+  width: 50,
+  height: 100,
+  offset: {
+    x: 0,
+    y: 10
+  }
 })
 
 export const playerKeys = {
@@ -25,4 +31,7 @@ export const playerKeys = {
   d: {
     pressed: false
   },
+  ' ': {
+    pressed: false
+  }
 }
